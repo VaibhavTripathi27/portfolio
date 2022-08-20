@@ -1,0 +1,369 @@
+.logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    left: auto;
+    margin: auto;
+    opacity: 0;
+    border-radius: 2%;
+
+    &::before {
+        content: '<img>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -40px;
+        left: 2%;
+        opacity: 0.6;
+    }
+
+    &::after {
+        content: '</>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 28px;
+        position: absolute;
+        // margin-top: 100%;
+        top: 80%;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+    }
+   
+    img{
+       border-radius: 5%;
+       object-fit: cover;
+       width: 20%;
+       animation: rotateIn 4s linear both;
+       
+
+    }
+
+    svg{
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        transform: rotateZ(30deg) !important;
+       
+    }
+
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        opacity: 0;
+       
+        z-index: 1;
+
+        &:hover {
+            z-index: 3;
+            border: 2px solid #ffd700;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -160px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+        svg{
+            width: 100%;
+            height: auto;
+            bottom: 0;
+            transform: rotateZ(30deg) !important;
+           
+        }
+    
+        .solid-logo {
+            position: absolute;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            margin: auto;
+            width: 100%;
+            opacity: 0;
+           
+            z-index: 1;
+    
+            &:hover {
+                z-index: 3;
+                border: 2px solid #ffd700;
+            }
+    }
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -140px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+    }
+}
+@media only screen and (max-width: 752px){
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -30%;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+    }
+}
+@media only screen and (max-width: 640px){
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -80px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+    }
+}
+@media only screen and (max-width: 450px){
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -90px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .logo-container{
+        z-index: 0;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        bottom: -85%;
+        right: 70%;
+        left: 30%;
+        margin: auto;
+        opacity: 0;
+        border-radius: 2%;
+        padding-bottom: 1%;
+        &::before {
+            content: '<img>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 16px;
+            position: absolute;
+            margin-top: -40px;
+            left: 2%;
+            opacity: 0.6;
+        }
+    
+        &::after {
+            content: '</>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            margin-top: -160px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img{
+            border-radius: 5%;
+            object-fit: cover;
+            width: 20%;
+            animation: rotateIn 4s linear both;
+            
+        }
+    }
+}

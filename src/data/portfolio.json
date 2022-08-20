@@ -1,0 +1,34 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/Bizwizz.png",
+            "title": "BizWizz",
+            "description": "Modern day website built on html5, css3 & sass",
+            "url": "https://bizwizz-123.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/four.png",
+            "title": "Spotify Web",
+            "description": "Spotify clone built simply on html5, css3 & javascript",
+            "url": "https://spotifyclone-123.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/five.png",
+            "title": "Digital Agency",
+            "description": "My first professional website layout with html5 & css3",
+            "url": "https://vaibhavtripathi27.github.io/mywebsite/"
+        },
+        {
+            "cover": "/portfolio/1/nirmaya.png",
+            "title": "Nirmaya",
+            "description": "Winning first hackathon ever competed by building this website",
+            "url": "https://niramaya-platform.herokuapp.com/niramaya/"
+        },
+        {
+            "cover": "/portfolio/1/six.png",
+            "title": "Lakeview",
+            "description": "Club Amenities website built on html5, css3 and sass",
+            "url": "https://lakeview-1234.netlify.app/"
+        }
+    ]
+}
